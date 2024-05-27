@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+body {
+    background-color: black;
+    background-image: url(Justiça.jpg);
+    background-size: cover ;
+    background-repeat: no-repeat;
+    font-family: "Open Sans", sans-serif;
+    }
+
+h1 {color: black;
+    display: flex;
+    justify-content: right;
+}
+
+h2 {color:black;}
+
+h3 { color: brown;
+    
+}
+
+p {color: coral;}
+li{color: aquamarine;}
+
+#Foto {
+    border-radius: 50px; 
+    margin: right 20px;
+}
+article{color: yellow;}
+
+abbr{color: ivory;}
+
+
+#Menu ul{
+    max-width: 600px;
+    padding: 0%;
+    background-color: black;
+    border-radius: 50px;
+}
+
+#Menu ul li {
+    display: inline-block;
+    color: white;
+    padding: 30px;  
+    
+}
+
+#Menu ul li a {
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+nav ul li a:hover,
+nav ul li a.active{
+    background-color: aqua; 
+        
+}
+
+
+th{ color: black;
+    border: 2px solid white;
+    border-collapse: collapse;
+    background-position: center;
+    background-color: beige ;
+}
+td{ color:aquamarine;
+    border: solid white;
+    border-collapse: collapse;
+}
+
+table{border: 2px solid white;
+    border-collapse: collapse;
+}
+
+a{
+    color: white;
+}
+
+.meuBotao {
+    box-shadow: 0px 1px 0px 0px #f0f7fa;
+    background:linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+    background-color:#33bdef;
+    border-radius:6px;
+    border:1px solid #057fd0;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:0px -1px 0px #5b6178;
+}
+.meuBotao:hover {
+    background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+    background-color:#019ad2;
+}
+.meuBotao:active {
+    position:relative;
+    top:1px;
+}

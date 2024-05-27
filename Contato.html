@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylecontato.css">
+    <script text="text/javascript" src="./ContatoJava.js"></script>
+
+    <title>Contato</title>
+</head>
+
+<body>
+    <h1>Contatos</h1>
+
+    <main>
+        <section id="Fale comigo" class="section">
+            <h2>Envie seus dados para contato</h2>
+
+            <form action="">
+
+                <br>
+                <label for="nome">Digite seu nome</label>
+                <input type="text" id="nome" maxlength="75" placeholder="Escreva seu nome completo">
+                <br>
+                <label for="nascimento">Data de Nascimento</label>
+                <input type="date" id="nascimento">
+                <br>
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone">
+                <br>
+                <label for="email">Email</label>
+                <input type="email" id="email">
+                <br>
+                <label for="cpf">CPF</label>
+                <input type="cpf" id="cpf" placeholder="Número do CPF">
+                <br>
+                <label for="M">Masculino</label>
+                <input type="radio" value="M">
+                <br>
+                <label for="F">Feminino</label>
+                <input type="radio" value="F">
+                <br>
+                <label for="RU">Retorno Urgência</label>
+                <input type="checkbox" value="U">
+                <br>
+                <label for="RN">Retorno Normal</label>
+                <input type="checkbox" value="N">
+                <br>
+                <label for="?">O que achou do meu Site?</label>
+                <select name="conceitos" id="conceitos">
+
+                    <option value="10">Ótimo</option>
+                    <option value="7,5">Bom</option>
+                    <option value="5">Regular</option>
+                    <option value="2,5">Ruim</option>
+
+                </select>
+                <br><br>
+            </form>
+
+            <input onclick="btn_form()" class="meuBotao" type="submit" name="Enviar" value="Enviar">
+            <br><br>
+            <input onclick="btn_reset()" class="meuBotao" type="reset" name="reset" value="Apagar">
+            <br><br>
+            <a href="index.html"><input class="meuBotao" type="button" value="Retornar"></a>
+
+
+    </main>
+
+
+
+</body>
+
+</html>
